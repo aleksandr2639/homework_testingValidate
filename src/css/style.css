@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather&display=swap');
+
+:root {
+    font-family: "Merriweather", "Arial", sans-serif;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    background-color: rgb(243, 222, 193);
+    border-radius: 10px;
+}
+
+.container-title {
+    margin: 15px 10px 10px;
+    text-align: center;
+}
+
+.credit-card-types {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 15px;
+}
+
+.card_item {
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.amex-image {
+    background-image: url("../img/amex.svg");
+}
+
+.diners-image {
+    background-image: url("../img/diners.svg");
+}
+
+.discover-image {
+    background-image: url("../img/discover.svg");
+}
+
+.jcb-image {
+    background-image: url("../img/jcb.svg");
+}
+
+.mastercard-image {
+    background-image: url("../img/mastercard.svg");
+}
+
+.visa-image {
+    background-image: url("../img/visa.svg");
+}
+
+.mir-image {
+    background-image: url("../img/mir.svg");
+}
+
+.form {
+    display: flex;
+    margin: 0 25px 40px;
+}
+
+.input {
+    width: 275px;
+    height: 40px;
+    flex: 1;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.submit {
+    background-color: rgb(58, 158, 123);
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
