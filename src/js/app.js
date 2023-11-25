@@ -1,5 +1,5 @@
-import { InnFormWidget } from "./widget";
+import  ControllerApp  from "./controller";
 
-const container = document.querySelector(".container");
-const form = new InnFormWidget(container);
-form.bindToDOM();
+const controllerApp = new ControllerApp();
+controllerApp.build(document.querySelector(".container"))
+

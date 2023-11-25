@@ -25,7 +25,7 @@ body{
 }
 
 .container-title {
-    margin: 15px 10px 10px;
+    margin: 20px 10px 10px;
     text-align: center;
 }
 
@@ -37,39 +37,39 @@ body{
 }
 
 .card_item {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     background-position: center;
     -webkit-background-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.amex-image {
+.amex {
     background-image: url("../img/amex.svg");
 }
 
-.diners-image {
+.diners {
     background-image: url("../img/diners.svg");
 }
 
-.discover-image {
+.discover {
     background-image: url("../img/discover.svg");
 }
 
-.jcb-image {
+.jcb {
     background-image: url("../img/jcb.svg");
 }
 
-.mastercard-image {
+.mastercard {
     background-image: url("../img/mastercard.svg");
 }
 
-.visa-image {
+.visa {
     background-image: url("../img/visa.svg");
 }
 
-.mir-image {
+.mir {
     background-image: url("../img/mir.svg");
 }
 
@@ -91,6 +91,29 @@ body{
     background-color: rgb(58, 158, 123);
     margin-left: 10px;
     padding: 10px;
+    border: none;
     border-radius: 5px;
     font-size: 18px;
+}
+
+.message {
+    visibility: visible;
+    display: flex;
+    margin: 0 20px 20px;
+}
+
+.text {
+    height: 18px;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blur {
+    opacity: 0.2;
+}
+
+.selection {
+    opacity: 1;
 }
