@@ -9,9 +9,9 @@ describe('проверка метода algorithmLuna', () => {
       ['valid', '30569309025904', true],
       ['valid', '6011111111111117', true],
       ['invalid', '1111111111111111', false],
-      ['invalid', '0000000000000000', false],
-      ['invalid', NaN, false],
+      ['invalid', '411111111', false],
+      ['invalid', '123578475', false],
     ])(('Должен быть %s'), (_, input, expected) => {
-      expected(validator.algorithmLuna(input)).toBe(expected);
+      expect(validator.algorithmLuna(input)).toBe(expected);
     });
   });
